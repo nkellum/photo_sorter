@@ -49,7 +49,7 @@ def sort_image(filename, dir):
 
 
 if(len(sys.argv) == 1):
-    print("usage: py photo_sorter.py [dir_to_sort]")
+    print("usage: py photo_sorter.py dir_to_sort")
     exit()
 if(not os.path.isdir(sys.argv[1])):
     print(sys.argv[1] + " does not seem to be a directory.")
