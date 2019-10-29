@@ -56,7 +56,7 @@ if(not os.path.isdir(sys.argv[1])):
     exit()
 if(not os.path.isdir(sys.argv[1] + "/Videos")):
     os.mkdir(sys.argv[1] + "/Videos")
-print("Sorting images in " + sys.argv[1] + "...")
+print("Sorting photos in " + sys.argv[1] + "...")
 for filename in os.listdir(sys.argv[1]):
     if filename.endswith(".jpg"):
         sort_image(filename, sys.argv[1])
