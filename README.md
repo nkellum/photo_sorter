@@ -1,2 +1,2 @@
-# image_sorter
-Sorts images into Year/month folders based on date taken.
+# photo_sorter
+Sorts photos into Year/month folders based on date taken.

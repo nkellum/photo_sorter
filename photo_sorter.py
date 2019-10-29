@@ -1,3 +1,12 @@
+# Photo Sorter by Nicolas Kellum
+#
+# This simple script moves images from a directory into their respective
+# Year/Month directories which will be created if they do not exist.
+# If a file is not an photo (jpg), it will be moved to the Videos folder.
+# The images are sorted by date taken which is found in the image's
+# metadata using the exif package.
+
+
 from exif import Image
 import os
 import shutil
