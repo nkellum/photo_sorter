@@ -6,4 +6,4 @@ which is also created if it does not exist.
 The images are sorted by date taken which is found in the image's
 metadata using the exif package.
 
-```usage: py photo_sorter.py [dir_to_sort]```
+```usage: py photo_sorter.py dir_to_sort```
